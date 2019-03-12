@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Address Book</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+</head>
+<body>
+	<header>Address Book</header>
+	<div id="greeting"></div>
+	<div id="note"></div>
+	<button value="showForm" type="button" id="showForm" name="showForm">+</button>
+	<form method="POST" action="">
+		<button id="close">X</button>
+		<p>Last Name</p>
+		<input type="text" id="lName" name="lName">
+		<p>First Name</p>
+		<input type="text" id="fName" name="fName">
+		<p>Middle Name</p>
+		<input type="text" id="mName" name="mName">
+		<p>Personal Phone</p>
+		<input type="tel" id="personalTel" name="personalTel">
+		<p>Home Phone</p>
+		<input type="tel" id="homeTel" name="homeTel">
+		<p>Work Phone</p>
+		<input type="tel" id="workTel" name="workTel">
+		<p>E-Mail</p>
+		<input type="email" id="email" name="email">
+		<p>Comments</p>
+		<textarea id="comment" name="comment"></textarea>
+		</br>
+		<div class="buttonsAdd">
+		<button value="submit" id="add" type="reset" name = "submit">Save</button>
+		</div>
+
+	</form>	<div id="cardContainer"></div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
